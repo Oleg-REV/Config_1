@@ -1,0 +1,10 @@
+# Shell Emulator
+
+This project provides an emulator for a shell environment that works with a virtual filesystem stored in a ZIP archive. The emulator supports basic commands such as `ls`, `cd`, `exit`, `head`, `pwd`, and `cp`.
+
+## Usage
+
+To use the emulator, run the following command:
+
+```bash
+python emulator.py -u <username> -h <hostname> -f <path_to_zip> [-s <startup_script>]
